@@ -1,0 +1,152 @@
+/* home page */
+.home {
+  background: #efe5e3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .wapper-picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+
+    .picture {
+      height: 180px;
+      width: 180px;
+      border: 1px;
+      border-radius: 400px;
+
+    }
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px
+  }
+
+  .option {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .top {
+      display: flex;
+      justify-content: space-evenly;
+
+      .move-about-me {
+        cursor: pointer;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: #f6f2ef;
+        text-align: center;
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 800;
+      }
+
+      .move-explanation {
+        cursor: pointer;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: #f6f2ef;
+        text-align: center;
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 800;
+
+      }
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: center;
+
+      .move-contact {
+        cursor: pointer;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: #f6f2ef;
+        text-align: center;
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 800;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+// About me
+.page-about-me {
+  height: 850px;
+  background: #efe5e3;
+
+  .header {}
+
+  .about_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    background: #f0e6e4;
+
+    .picture-me {
+      height: 180px;
+      width: 180px;
+      border: 1px;
+      border-radius: 400px;
+      margin: 20px 0 20px 0;
+    }
+
+    .text {
+      direction: rtl;
+      white-space: pre-wrap;
+      margin: 0;
+
+    }
+  }
+
+
+}
+
+.back-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border: 1px solid;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 20px;
+}
+
+// explanation
+
+.explanation {
+  height: 1150px;
+  background: #efe5e3;
+
+  .text {
+    margin: 20px 0 20px 0;
+    direction: rtl;
+    font-weight: 800;
+    font-size: 20px;
+  }
+}
